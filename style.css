@@ -1,0 +1,334 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+nav {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    color: #16507b;
+}
+
+.navbar-brand:hover {
+    color: #16507b;
+}
+
+.navbar ul li a {
+    color: #16507b !important;
+}
+
+.navbar ul li a:hover {
+    color: #2487ce !important;
+}
+
+#home-section {
+    background-image: url('hero-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 4rem;
+
+}
+
+#home-section:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    padding-top: 53rem;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.home-div {
+    position: relative;
+}
+
+.pt-5 {
+    padding-top: 10rem !important;
+}
+
+.home-div h1 {
+    font-size: 4rem;
+    color: #16507b;
+}
+
+.home-div p {
+    color: #5e5e5e;
+    margin: 10px 0 0 0;
+    font-size: 26px;
+}
+
+#home-section .icon-box {
+    position: relative;
+    box-shadow: rgba(18, 66, 101, 0.08) 0px 0px 29px 0px;
+    z-index: 1;
+    padding: 50px 30px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    transition: all 0.35s ease-in-out;
+    border-radius: 8px;
+}
+
+#home-section .icon-box:hover h4 {
+    color: rgb(36, 135, 206);
+}
+
+#home-section .icon-box:hover {
+    transform: scale(1.06);
+}
+
+#home-section .icon-box .icon {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 36px;
+    line-height: 1;
+    color: rgb(36, 135, 206);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#about-section .about p {
+    color: rgb(164 144 144);
+    font-size: 17px;
+}
+
+#about-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.counts-section {
+    background-color: #f8fbfe;
+    padding: 4rem 0;
+}
+
+.counts-section .counts-box {
+    text-align: center;
+}
+
+.counts-section .counts-box span {
+    display: block;
+    font-size: 48px;
+    margin: auto;
+    color: #124265;
+    font-weight: 700;
+}
+
+.counts-section .counts-box p {
+    padding: 8px 0 0 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1e6ca6;
+}
+
+.about-video-section {
+    padding: 4rem 0;
+}
+
+.about-video-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-video-section .bi-play-fill {
+    left: 24rem;
+    top: 109rem;
+    position: absolute;
+    height: 94px;
+    display: flex;
+    width: 94px;
+    background: radial-gradient(#2487ce 50%, rgba(36, 135, 206, 0.4) 52%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.about-video-section ul {
+    list-style: none;
+}
+
+.about-video-section h3 {
+    font-weight: 700;
+    color: #124265;
+}
+
+.Clients-section {
+    padding: 2rem 0;
+    background-color: #f8fbfe;
+    text-align: center;
+}
+
+.Clients-section img {
+    max-width: 45%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+
+.Clients-section img:hover {
+    transform: scale(1.2);
+    filter: none;
+}
+
+.testimonals-section {
+    padding: 4rem 0;
+}
+
+.testimonal-div h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #124265;
+}
+
+.testimonal-div p {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #919191;
+}
+
+.testimonal-div2 p {
+    font-style: italic;
+    padding: 20px;
+    background: #f3f9fd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 20px;
+}
+
+.testimonal-div2 p::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid #f3f9fd;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 20px);
+}
+
+.Service-section {
+    padding: 5rem 0;
+    background-color: #f8fbfe;
+}
+
+.Service-section .icon-box {
+    text-align: center;
+    padding: 70px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
+.Service-section .icon .bi-dribbble {
+    color: #47aeff;
+    transition: 0.3s all;
+}
+
+.Service-section .icon-box:hover .bi-dribbble {
+    background-color: #47aeff;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+}
+
+.Service-section .icon .bi-file-earmark-ruled-fill {
+    color: #ffa76e;
+    transition: 0.3s all;
+}
+
+.Service-section .icon-box:hover .bi-file-earmark-ruled-fill {
+    background-color: #ffa76e;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+}
+
+.Service-section .icon .bi-speedometer {
+    color: #e80368;
+    transition: 0.3s all;
+}
+
+.Service-section .icon-box:hover .bi-speedometer {
+    background-color: #e80368;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+}
+
+.Service-section .icon .bi-stack {
+    color: #ffbb2c;
+    transition: 0.3s all;
+}
+
+.Service-section .icon-box:hover .bi-stack {
+    background-color: #ffbb2c;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+}
+
+.Service-section .icon .bi-file-slides-fill {
+    color: #ff5828;
+    transition: 0.3s all;
+}
+
+.Service-section .icon-box:hover .bi-file-slides-fill {
+    background-color: #ff5828;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+}
+
+.Service-section .icon .bi-binoculars {
+    color: #11dbcf;
+    transition: 0.3s all;
+}
+
+.Service-section .icon-box:hover .bi-binoculars {
+    background-color: #11dbcf;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+}
+
+.cta-station {
+    padding: 4rem 0;
+    background-color: #2487ce;
+}
+
+.carousel-indicators {
+    bottom: -70px;
+}
+
+.carousel-indicators button {
+    height: 18px !important;
+    background-color: #2487ce !important;
+    border-radius: 50%;
+    width: 21px !important;
+}
+
+.Portfolio-section {
+    padding-top: 10rem;
+}
+
+.Portfolio-section h1 {
+    color: #124265;
+}
+
+.Portfolio-section p {
+    color: #919191;
+}
+
+.Portfolio-section ul{
+    list-style: none;
+}
